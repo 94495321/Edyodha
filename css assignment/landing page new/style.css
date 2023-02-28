@@ -1,0 +1,261 @@
+body{
+    margin:none;
+    /* box-sizing: border-box; */
+    font-family: sans-serif;
+    background-color: white;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* margin:20px 0px 30px 50px; */
+}
+
+.logo{
+    width:120px;
+    height:50px;
+    /* margin:20px 0px 30px -10px; */
+}
+
+.nav{
+    padding:20px;
+    text-decoration: none;
+    margin-top:10px;
+    display: inline-flex;
+    font-weight: bold;
+    color: rgb(168, 167, 167);
+    font-family: sans-serif;
+}
+
+.nav:hover{
+    text-decoration: underline 3px rgb(132, 43, 235) ;
+    text-underline-position: under;
+    color:black;
+}
+
+.active{
+    text-decoration: underline 3px rgb(132, 43, 235) ;
+    text-underline-position: under;
+    color:black;
+}
+
+.button1{
+    border-radius: 20px;
+    border-style:none;
+    background-color: pink;
+    width:120px;
+    height:50px;
+    margin:15px 40px 20px 30px;
+    color:rgb(132, 43, 235);
+}
+
+/*---------------------------------------------------------------------- */
+
+.child1{
+    font-size:90px;
+    padding-left:130px;
+    padding-top:20px;
+    margin-bottom: 10px;
+}
+
+.child2{
+    font-size:20px;
+    padding-left: 130px;
+    padding-top:0px;
+    color: rgb(97, 96, 96);
+}
+
+.button2{
+    color: #ffffff;
+  /* border: 1px solid #; */
+  /* width: 170px; */
+  background-color: #5243c0;
+  height: 60px;
+  width: 150px;
+  border: 1px solid blue;
+  border-radius: 20px;
+  /* padding: 20px; */
+  /* padding-bottom: 20px; */
+  font-weight: bold;
+  margin-left:130px;
+  margin-right:10px;
+   
+
+}
+.image3{
+    display: flex;
+    
+    width: 540px;
+    align-items: center;
+  
+}
+
+
+
+
+.user1{
+    display:flex;
+    border:1px solid;
+    border-style:none;
+    border-radius: 15px;
+    background-color: rgb(245, 245, 245);
+    height:50px;
+    width:450px;
+    margin:20px 30px 7px 130px;
+    align-items: center;
+    color:rgb(194, 186, 186);
+    font-weight: bold;
+    
+    
+}
+
+.user1:hover {
+    box-shadow: 10px 10px 50px 10px rgb(221, 221, 221);
+    background-color:rgb(255, 255, 255);
+    background-image: url("/images/tick-blue.png");
+    background-repeat: no-repeat;
+    /* margin: 8px 15px 5px 10px; */
+    background-position-x:10px ;
+    background-position-y:9px;
+    color:#8840da;
+    
+}
+
+.user1:hover .graytick {
+    opacity:0;
+}
+
+
+.user2{
+    display:flex;
+    border:1px solid;
+    border-style:none;
+    border-radius: 15px;
+    background-color:rgb(245, 245, 245);
+    height:50px;
+    width:450px;
+    margin:5px 30px 7px 130px;
+    align-items: center;
+    color:rgb(194, 186, 186);
+    /* justify-content: space-between; */
+}
+
+.user2:hover {
+    box-shadow: 10px 10px 40px 2px #ccc;
+    background-color:rgb(255, 255, 255);
+    background-image: url("/images/tick-blue.png");
+    background-repeat: no-repeat;
+    /* margin: 8px 15px 5px 10px; */
+    background-position-x:10px ;
+    background-position-y:8px;
+    color:#8840da;
+}
+
+.user2:hover .graytick2 {
+    opacity:0;
+}
+
+.user3{
+    display:flex;
+    border:1px solid;
+    border-style:none;
+    border-radius: 15px;
+    background-color: rgb(245, 245, 245);
+    height:50px;
+    width:450px;
+    margin:5px 30px 7px 130px;
+    align-items: center;
+    color:rgb(194, 186, 186);
+    /* justify-content: space-between; */
+}
+
+.user3:hover {
+    box-shadow: 10px 10px 40px 2px #ccc;
+    background-color:rgb(255, 255, 255);
+    background-image: url("/images/tick-blue.png");
+    background-repeat: no-repeat;
+    /* margin: 8px 15px 5px 10px; */
+    background-position-x:10px ;
+    background-position-y:8px;
+    color:#8840da;
+}
+
+.user3:hover .graytick3 {
+    opacity:0;
+}
+
+.user4{
+    display:flex;
+    border:1px solid;
+    border-style:none;
+    border-radius: 15px;
+    background-color: rgb(245, 245, 245);
+    height:50px;
+    width:450px;
+    margin:5px 30px 0px 130px;
+    align-items: center;
+    color:rgb(194, 186, 186);
+    /* justify-content: space-between; */
+}
+
+.user4:hover {
+    box-shadow: 10px 10px 40px 2px #ccc;
+    background-color:rgb(255, 255, 255);
+    background-image: url("/images/tick-blue.png");
+    background-repeat: no-repeat;
+    /* margin: 8px 15px 5px 10px; */
+    background-position-x:10px ;
+    background-position-y:8px;
+    color:#8840da;
+}
+
+.user4:hover .graytick4 {
+    opacity:0;
+}
+
+
+.light{
+    border:1px solid pink;
+    
+    height:7px;
+    width:15px;
+    border-radius:5px;
+    background-color:pink;
+}
+
+.light2{
+    border:1px solid orange;
+    
+    height:7px;
+    width:15px;
+    border-radius:5px;
+    background-color:orange;
+}
+
+.light3{
+    border:1px solid yellowgreen;
+    
+    height:7px;
+    width:15px;
+    border-radius:5px;
+    background-color: yellowgreen;
+}
+
+.light4{
+    border:1px solid rgb(226, 168, 80);
+    
+    height:7px;
+    width:15px;
+    border-radius:5px;
+    background-color: rgb(226, 168, 80);
+}
+
+.main{
+    display:flex;
+}
+
+.big-picture{
+    height: 610px;
+    width:650px;
+}
+
